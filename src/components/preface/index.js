@@ -74,7 +74,7 @@ export default class perface extends Component {
 
 
 
-                    <div className="article-navigation">
+                    {/* <div className="article-navigation">
                         <span className="next">下一篇：
                     <a href="653237">第一章：docker概述</a>
                         </span>
@@ -89,7 +89,7 @@ export default class perface extends Component {
                             <button type="submit" className="ui green submit button right floated small">发布 (Ctrl+Enter)</button>
                         </form>
                         <div className="ui comments"></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )
