@@ -1,0 +1,3332 @@
+{
+    "/startup/identifyrelevant": {
+        "name": "识别干系人",
+        "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+        "imgs": [],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/startup/developprojectcharter": {
+        "name": "制定项目章程",
+        "remark": "制定项目章程是编写一份正式批准项目并授权项目经理在项目活动中使用组织资源的文件的过程。本过程的主要作用是，明确项目与组织战略目标之间的直接联系，确立项目的正式地位，并展示组织对项目的承诺。本过程仅开展一次或仅在项目的预定义点开展。",
+        "imgs": [
+            "images/zhidingxiangmuzhangcheng/index.png"
+        ]
+    },
+    "/plan/makeproject": {
+        "name": "制定项目管理计划",
+        "remark": "目管理计划是定义、准备和协调项目计划的所有组成部分，并把它们整合为一份综合项目管理计划的过程。本过程的主要作用是，生成一份综合文件，用于确定所有项目工作的基础及其执行方式。本过程仅开展一次或仅在项目的预定义点开展。究竟需要哪些项目管理计划组件和项目文件，取决于具体项目的需求。",
+        "imgs": [
+            "images/zhidingxiangmuguanlijihua/index.png"
+        ]
+    },
+    "/plan/collectingdemand": {
+        "name": "收集需求",
+        "remark": "收集需求是为实现目标而确定、记录并管理相关方的需要和需求的过程。本过程的主要作用是，为定义产品范围和项目范围奠定基础。本过程仅开展一次或仅在项目的预定义点开展。图 3-4 描述了本过程的输入和输出。",
+        "imgs": [
+            "images/shoujixuqiu/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "项目管理计划",
+                    "link": "/chapter/project/xiangmuguanliPlan"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/definitionrange": {
+        "name": "定义范围",
+        "remark": "定义范围是制定项目和产品详细描述的过程。本过程的主要作用是，描述产品、服务或成果的边界和验收标准。本过程仅开展一次或仅在项目的预定义点开展。图 3-5 描述了本过程的输入和输出。",
+        "imgs": [
+            "images/dingyifanwei/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）范围管理计划。"
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/createWBS": {
+        "name": "创建 WBS",
+        "remark": "创建工作分解结构 (WBS) 是把项目可交付成果和项目工作分解为较小的、更易于管理的组件的过程。本过程的主要作用是，为所要交付的内容提供架构。本过程仅开展一次或仅在项目的预定义点开展。",
+        "imgs": [
+            "images/chuangjianWBS/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）范围管理计划。"
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "项目范围说明书",
+                    "link": "/chapter/projectFiles/fanweishuomingshu"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/definitionactivity": {
+        "name": "定义活动",
+        "remark": "定义活动是识别和记录为完成项目可交付成果而须采取的具体行动的过程。本过程的主要作用是，将工作包分解为进度活动，作为对项目工作进行进度估算、规划、执行、监督和控制的基础。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/dingyihuodong/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/activitysort": {
+        "name": "排列活动顺序",
+        "remark": "排列活动顺序是识别和记录项目活动之间的关系的过程。本过程的主要作用是定义工作之间的逻辑顺序，以便在既定的所有项目制约因素下获得最高的效率。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/pailiehuodongsort/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "活动属性",
+                    "link": "/chapter/projectFiles/huodongshuxing"
+                },
+                {
+                    "name": "活动清单",
+                    "link": "/chapter/projectFiles/huodongqingdan"
+                },
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "活动属性",
+                    "link": "/chapter/projectFiles/huodongshuxing"
+                },
+                {
+                    "name": "活动清单",
+                    "link": "/chapter/projectFiles/huodongqingdan"
+                },
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/estimationresource": {
+        "name": "估算活动资源",
+        "remark": "估算活动资源是估算执行项目所需的团队资源，以及材料、设备和用品的类型和数量的过程。本过程的主要作用是，明确完成项目所需的资源种类、数量和特性。本过程应根据需要在整个项目期间定期开展",
+        "imgs": [
+            "images/gusuanhuodongziyuan/1.png",
+            "images/gusuanhuodongziyuan/2.png"
+        ]
+    },
+    "/plan/estimationtimeing": {
+        "name": "估算活动持续时间",
+        "remark": "估算活动持续时间是根据资源估算的结果，估算完成单项活动所需工作时段数的过程。本过程的主要作用是，确定完成每个活动所需花费的时间量。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/gusuanhuodongchixushijian/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/makeprogressproject": {
+        "name": "制定进度计划",
+        "remark": "制定进度计划是分析活动顺序、持续时间、资源需求和进度制约因素，创建进度模型，从而落实项目执行和监控的过程。本过程的主要作用是，为完成项目活动而制定具有计划日期的进度模型。本过程需要在整个项目期间开展",
+        "imgs": [
+            "images/zhidingjindujihua/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "活动属性",
+                    "link": "/chapter/projectFiles/huodongshuxing"
+                },
+                {
+                    "name": "活动清单",
+                    "link": "/chapter/projectFiles/huodongqingdan"
+                },
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "持续时间估算",
+                    "link": "/chapter/projectFiles/chixushijiangusuan"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "项目进度网络图",
+                    "link": "/chapter/projectFiles/xiangmujinduwangluotu"
+                },
+                {
+                    "name": "项目进度网络图",
+                    "link": "/chapter/projectFiles/xiangmujinduwangluotu"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "活动属性",
+                    "link": "/chapter/projectFiles/huodongshuxing"
+                },
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "持续时间估算",
+                    "link": "/chapter/projectFiles/chixushijiangusuan"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/estimatedcost": {
+        "name": "估算成本",
+        "remark": "估算成本是对完成项目工作所需资金进行近似估算的过程。本过程的主要作用是，确定项目所需的资金。本过程应根据需要在整个项目期间定期开展。",
+        "imgs": [
+            "images/gusuanchengben/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "成本管理计划",
+                    "link": "/chapter/project/chengbenguanliPlan"
+                },
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/makebudget": {
+        "name": "制定预算t",
+        "remark": "制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。本过程仅开展一次或仅在项目的预定义点开展",
+        "imgs": [
+            "images/zhidingyusuan/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "成本管理计划",
+                    "link": "/chapter/project/chengbenguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "成本估算",
+                    "link": "/chapter/projectFiles/chengbengusuan"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "成本估算",
+                    "link": "/chapter/projectFiles/chengbengusuan"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/planningquality": {
+        "name": "规划质量",
+        "remark": "规划质量管理是识别项目及其可交付成果的质量要求和（或）标准，并书面描述项目将如何证明符合质量要求和（或）标准的过程。本过程的主要作用是，为在整个项目期间如何管理和核实质量提供指南和方向。本过程仅开展一次或仅在项目的预定义点开展。",
+        "imgs": [
+            "images/guihuazhiliang/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/develophumanplan": {
+        "name": "制定人力资源管理计划",
+        "remark": "制定人力资源管理计划在PMBook6.0中已经去掉新增了规划关系人参与<a href='/plan/planningprocurement'>规划干系人管理</a>",
+        "imgs": []
+    },
+    "/plan/planningcommunication": {
+        "name": "规划沟通管理",
+        "remark": "规划沟通管理是基于每个相关方或相关方群体的信息需求、可用的组织资产，以及具体项目的需求，为项目沟通活动制定恰当的方法和计划的过程。本过程的主要作用是，为及时向相关方提供相关信息，引导相关方有效参与项目，而编制书面沟通计划。本过程应根据需要在整个项目期间定期开展。",
+        "imgs": [],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）相关方参与计划。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/plan/lanningriskmanagement": {
+        "name": "规划风险管理",
+        "remark": "规划风险管理是定义如何实施项目风险管理活动的过程。本过程的主要作用是，确保风险管理的水平、方法和可见度与项目风险程度，以及项目对组织和其他相关方的重要程度相匹配。本过程仅开展一次或仅在项目的预定义点开展。",
+        "imgs": [
+            "images/guihuafengxianguanli/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "在规划项目风险管理时，应考虑项目管理计划的所有可用组件，以确保风险管理符合具体项目的需求。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）相关方登记册。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/plan/identifyingrisk": {
+        "name": "识别风险",
+        "remark": "识别风险是识别单个项目风险，以及整体项目风险的来源，并记录风险特征的过程。本过程的主要作用是，记录现有的单个项目风险，以及整体项目风险的来源。本过程还汇集相关信息，以便项目团队能够恰当应对已识别风险。本过程需要在整个项目期间开展",
+        "imgs": [
+            "images/shibiefengxian/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "成本管理计划",
+                    "link": "/chapter/project/chengbenguanliPlan"
+                },
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "成本估算",
+                    "link": "/chapter/projectFiles/chengbengusuan"
+                },
+                {
+                    "name": "持续时间估算",
+                    "link": "/chapter/projectFiles/chixushijiangusuan"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/impementdingxinganalysis": {
+        "name": "实施定性风险分析",
+        "remark": "实施定性风险分析是通过评估单个项目风险发生的概率和影响以及其他特征，对风险进行优先排序，从而为后续分析或行动提供基础的过程。本过程的主要作用是重点关注高优先级的风险。本过程需要在整个项目期间开展",
+        "imgs": [
+            "images/shishidingxingfenxi/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）风险管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/impementdinglianganalysis": {
+        "name": "实施定量风险分析",
+        "remark": "实施定量风险分析是就已识别的单个项目风险和不确定性的其他来源对整体项目目标的影响进行定量分析的过程。本过程的主要作用是，量化整体项目风险敞口，并提供额外的定量风险信息，以支持风险应对规划。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/shishidingliangfenxi/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "成本估算",
+                    "link": "/chapter/projectFiles/chengbengusuan"
+                },
+                {
+                    "name": "成本预测",
+                    "link": "/chapter/projectFiles/chengbenyuche"
+                },
+                {
+                    "name": "持续时间估算",
+                    "link": "/chapter/projectFiles/chixushijiangusuan"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                },
+                {
+                    "name": "进度预测",
+                    "link": "/chapter/projectFiles/jinduyuche"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）风险报告。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/plan/planningriskresponse": {
+        "name": "规划风险应对",
+        "remark": "规划风险应对是为处理整体项目风险敞口，以及应对单个项目风险，而制定可选方案、选择应对策略并商定应对行动的过程。本过程的主要作用是，制定应对整体项目风险和单个项目风险的适当方法。本过程还将分配资源，并根据需要将相关活动添加进项目文件和项目管理计划。本过程需要在整个项目期间开展。",
+        "imgs": [],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "规划风险应对是为处理整体项目风险敞口，以及应对单个项目风险，而制定可选方案、选择应对策略并商定应对行动的过程。本过程的主要作用是，制定应对整体项目风险和单个项目风险的适当方法。本过程还将分配资源，并根据需要将相关活动添加进项目文件和项目管理计划。本过程需要在整个项目期间开展。",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "成本预测",
+                    "link": "/chapter/projectFiles/chengbenyuche"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "成本管理计划",
+                    "link": "/chapter/project/chengbenguanliPlan"
+                },
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/caigouguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/planningprocurement": {
+        "name": "规划采购管理",
+        "remark": "规划采购管理是记录项目采购决策，明确采购方法，识别潜在卖方的过程。本过程的主要作用是，确定是否从项目外部获取货物和服务，如果是，则还要确定将在什么时间、以什么方式获取什么货物和服务。货物和服务可从执行组织的其他部门采购，或者从外部渠道采购。",
+        "imgs": [
+            "images/guihuacaigou/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "范围管理计划",
+                    "link": "/chapter/project/fanweiguanliPlan"
+                },
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/plan/planningganxirenjoin": {
+        "name": "规划相关方参与",
+        "remark": "规划相关方参与是根据相关方的需求、期望、利益和对项目的潜在影响，制定项目相关方参与项目的方法的过程。本过程的主要作用是，提供与相关方进行有效互动的可行计划。本过程应根据需要在整个项目期间定期开展。",
+        "imgs": [
+            "images/guihuaganxirenjoin/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/manageprojectkownledge": {
+        "name": "管理项目知识",
+        "remark": "管理项目知识是使用现有知识并生成新知识，以实现项目目标，并且帮助组织学习的过程。本过程的主要作用是，利用已有的组织知识来创造或改进项目成果，并且使当前项目创造的知识可用于支持组织运营和未来的项目或阶段。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/guanlixiangmuzhishi/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "目管理计划的所有组件都可用作本过程的输入。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "资源分解结构",
+                    "link": "/chapter/projectFiles/ziyuanfenjiejiegou"
+                },
+                {
+                    "name": "供方选择标准",
+                    "link": "/chapter/projectFiles/gongfangxuanzebiaozhun"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "管理计划的任何组件都可在本过程更新。"
+        }
+    },
+    "/implement/managequality": {
+        "name": "管理质量",
+        "remark": "理质量是把组织的质量政策用于项目，并将质量管理计划转化为可执行的质量活动的过程。 本过程的主要作用是，提高实现质量目标的可能性，以及识别无效过程和导致质量低劣的原因。 本过程需要在整个项目期间开展。图 4-4 描述了本过程的输入和输出。",
+        "imgs": [
+            "images/guanlizhiliang/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）质量管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "测量控制测量结果",
+                    "link": "/chapter/projectFiles/zhiliangkongzhiceliangjieguo"
+                },
+                {
+                    "name": "质量测量指标",
+                    "link": "/chapter/projectFiles/zhiliangceliangzhibiao"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/getsource": {
+        "name": "获取资源",
+        "remark": "获取资源是获取项目所需的团队成员、设施、设备、材料、用品和其他资源的过程。本过程的主要作用是，概述和指导资源的选择，并将其分配给相应的活动。本过程应根据需要在整个项目期间定期开展。",
+        "imgs": [
+            "images/huoquziyuan/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/caigouguanliPlan"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源分解结构",
+                    "link": "/chapter/projectFiles/ziyuanfenjiejiegou"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/constructionteam": {
+        "name": "建设团队",
+        "remark": "团队是提高工作能力，促进团队成员互动，改善团队整体氛围，以提高项目绩效的过程。本过程的主要作用是，改进团队协作、增强人际技能、激励员工、减少摩擦以及提升整体项目绩效。本过程需要在整个项目期间开展",
+        "imgs": [
+            "images/jiansetuandui/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）资源管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "团队章程",
+                    "link": "/chapter/projectFiles/tuanduizhangcheng"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "团队章程",
+                    "link": "/chapter/projectFiles/tuanduizhangcheng"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）资源管理计划。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/implement/manageteam": {
+        "name": "管理团队",
+        "remark": "管理团队是跟踪团队成员工作表现，提供反馈，解决问题并管理团队变更，以优化项目绩效的过程。本过程的主要作用是，影响团队行为、管理冲突以及解决问题。本过程需要在整个项目期间开展。图 4-7 描述了本过程的输入和输出。",
+        "imgs": [
+            "images/guanlituandui/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）资源管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "团队章程",
+                    "link": "/chapter/projectFiles/tuanduizhangcheng"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/managecommunicate": {
+        "name": "管理沟通",
+        "remark": "管理沟通是指确保项目信息及时且恰当地收集、生成、发布、存储、检索、管理、监督和最终处置的过程。本过程的主要作用是，促成项目团队与相关方之间的有效信息流动。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/guanligoutong/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "质量报告",
+                    "link": "/chapter/projectFiles/zhiliangbaogao"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/implementrisk": {
+        "name": "实施风险应对",
+        "remark": "实施风险应对是执行商定的风险应对计划的过程。本过程的主要作用是，确保按计划执行商定的风险应对措施，来管理整体项目风险敞口，以及最小化单个项目威胁，最大化单个项目机会。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/shishifengxianyingdui/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）风险管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目团队派工单",
+                    "link": "/chapter/projectFiles/xiangmutuanduipaigongdan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/procurement": {
+        "name": "实施采购",
+        "remark": "实施采购是获取卖方应答、选择卖方并授予合同的过程。本过程的主要作用是，选定合格卖方并签署关于货物或服务交付的法律协议。本过程应根据需要在整个项目期间定期开展。",
+        "imgs": [
+            "images/shishicaigou/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "范围管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "配置管理计划",
+                    "link": "#"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "质量管理计划",
+                    "link": "/chapter/project/zhiliangguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/caigouguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/implement/managerelevantjoin": {
+        "name": "管理相关方参与",
+        "remark": "管理相关方参与是与相关方进行沟通和协作，以满足其需求与期望，处理问题，并促进相关方合理参与项目活动的过程。本过程的主要作用是，让项目经理提升相关方的支持，降低相关方的抵制。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/guanliganxirencanyu/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方管理计划",
+                    "link": "/chapter/project/"
+                },
+                {
+                    "name": "配置管理计划",
+                    "link": "#"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/project": {
+        "name": "监控项目工作",
+        "remark": "监控项目工作是跟踪、审查和报告整体项目进展，以实现项目管理计划中确定的绩效目标的过程。本过程的主要作用是，让相关方了解项目的当前状态并认可为处理绩效问题而采取的行动，以及通过成本和进度预测，让相关方了解未来项目状态。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/jiankongxiangmugongzuo/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "项目管理计划的任何组件都可用作本过程的输入。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "成本预测",
+                    "link": "/chapter/projectFiles/chengbenyuche"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                },
+                {
+                    "name": "进度预测",
+                    "link": "/chapter/projectFiles/jinduyuche"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "成本预测",
+                    "link": "/chapter/projectFiles/chengbenyuche"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "进度预测",
+                    "link": "/chapter/projectFiles/jinduyuche"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "项目管理计划的任何组件都可在本过程更新。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/monitor/changecontrol": {
+        "name": "实施整体变更控制",
+        "remark": "实施整体变更控制是指审查所有变更请求，批准变更，管理对可交付成果、组织过程资产、项目文件和项目管理计划的变更，并对变更处理结果进行沟通的过程。本过程审查对项目文件、可交付成果或项目管理计划的所有变更请求，并决定对变更请求的处置方案。本过程的主要作用是，确保对项目中已记录在案的变更做综合评审。如果不考虑变更对整体项目目标或计划的影响就开展变更，往往会加剧整体项目风险。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/shishizhengtibiangengkongzhi/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "变更管理计划",
+                    "link": "/chapter/project/biangengguanliPlan"
+                },
+                {
+                    "name": "配置管理计划",
+                    "link": "#"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "正式受控的任何项目文件都可在本过程变更。通常在本过程更新的一种项目文件是变更日志。变更日志用于记录项目期间发生的变更。",
+            "links": [],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "项目管理计划的任何组件都可在本过程更新。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/monitor/scopeconfirm": {
+        "name": "确认范围",
+        "remark": "确认范围是正式验收已完成的项目可交付成果的过程。本过程的主要作用是，使验收过程具有客观性；同时通过确认每个可交付成果，来提高最终产品、服务或成果获得验收的可能性。本过程应根据需要在整个项目期间定期开展。究竟需要哪些项目管理计划组件和项目文件，取决于具体项目的需求。",
+        "imgs": [],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "范围管理计划",
+                    "link": ""
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "质量报告",
+                    "link": "/chapter/projectFiles/zhiliangbaogao"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/controlscope": {
+        "name": "控制范围",
+        "remark": "控制范围是监督项目和产品的范围状态，管理范围基准变更的过程。本过程的主要作用是，在整个项目期间保持对范围基准的维护。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/kongzhifanwei/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "范围管理计划",
+                    "link": "/chapter/project/fanweiguanliPlan"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "变更管理计划",
+                    "link": "#"
+                },
+                {
+                    "name": "配置管理计划",
+                    "link": "#"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "绩效测量基准",
+                    "link": "#"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "范围管理计划",
+                    "link": "/chapter/project/fanweiguanliPlan"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                },
+                {
+                    "name": "绩效测量基准",
+                    "link": "##"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/controlprogress": {
+        "name": "控制进度",
+        "remark": "控制进度是监督项目状态，以更新项目进度和管理进度基准变更的过程。本过程的主要作用是，在整个项目期间保持对进度基准的维护。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/kongzhijindu/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "范围基准",
+                    "link": "/chapter/project/fanweiJiZhun"
+                },
+                {
+                    "name": "绩效测量基准",
+                    "link": "#"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目日历",
+                    "link": "/chapter/projectFiles/xiangmurili"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "进度数据",
+                    "link": "/chapter/projectFiles/jindushuju"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源日历",
+                    "link": "/chapter/projectFiles/ziyuanrili"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "进度数据",
+                    "link": "/chapter/projectFiles/jindushuju"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                },
+                {
+                    "name": "绩效测量基准",
+                    "link": "#"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/controlcost": {
+        "name": "控制成本",
+        "remark": "控制成本是监督项目状态，以更新项目成本和管理成本基准变更的过程。本过程的主要作用是，在整个项目期间保持对成本基准的维护。本过程需要在整个项目期间开展",
+        "imgs": [
+            "images/kongzhichengben/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "成本管理计划",
+                    "link": "/chapter/project/chengbenguanliPlan"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                },
+                {
+                    "name": "绩效测量基准",
+                    "link": "/chapter/projectFiles/jixiaoceliangjizhun"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/controlquality": {
+        "name": "控制质量",
+        "remark": "控制质量是为了评估绩效，确保项目输出完整、正确并满足客户期望，而监督和记录质量管理活动执行结果的过程。本过程的主要作用是，核实项目可交付成果和工作已经达到主要相关方的质量要求，可供最终验收。本过程需要在整个项目期间开展。",
+        "imgs": [],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）质量管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "质量测量指标",
+                    "link": "/chapter/projectFiles/zhiliangceliangzhibiao"
+                },
+                {
+                    "name": "测试与评估文件",
+                    "link": "/chapter/projectFiles/ceshiyupingguwenjian"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "测试与评估文件",
+                    "link": "/chapter/projectFiles/ceshiyupingguwenjian"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）质量管理计划。",
+            "links": [],
+            "desc": ""
+        }
+    },
+    "/monitor/controlresource": {
+        "name": "控制资源",
+        "remark": "控制资源是确保被分配给项目的物质资源按计划就位，以及监督资源的计划和实际使用情况，并采取必要纠正措施的过程。本过程的主要作用是，确保所分配的资源适时适地可用于项目，且在不再需要时被释放。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/kongzhiziyuan/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）资源管理计划。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "物质资源分配单",
+                    "link": "#"
+                },
+                {
+                    "name": "项目进度计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                },
+                {
+                    "name": "资源分解结构",
+                    "link": "/chapter/projectFiles/ziyuanfenjiejiegou"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "物质资源分配单",
+                    "link": "#"
+                },
+                {
+                    "name": "资源分解结构",
+                    "link": "/chapter/projectFiles/ziyuanfenjiejiegou"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/monicommunication": {
+        "name": "监督沟通",
+        "remark": "监督沟通是确保满足项目及其相关方的信息需求的过程。本过程的主要作用是，按沟通管理计划和相关方参与计划的要求开展高效的信息传递。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/jiandugoutong/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "项目沟通记录",
+                    "link": "/chapter/projectFiles/xiangmugoutongjilu"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/superrisk": {
+        "name": "监督风险",
+        "remark": "监督风险是在整个项目期间，监督商定的风险应对计划的实施、跟踪已识别风险、识别和分析新风险，以及评估风险管理有效性的过程。本过程的主要作用是，使项目决策都基于关于整体项目风险敞口和单个项目风险的当前信息。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/jiandufengxian/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "监督风险",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "项目管理计划的任何组件都可在本过程更新。",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/controlpurchase": {
+        "name": "控制采购",
+        "remark": "控制采购是管理采购关系，监督合同绩效，实施必要的变更和纠偏，以及关闭合同的过程。本过程的主要作用是，确保买卖双方履行法律协议，满足项目需求。如果存在一系列采购活动，本过程就需要在整个项目期间开展。",
+        "imgs": [
+            "images/kongzhicaigou/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "沟通管理计划是项目管理计划的组成部分，描述将如何规划，结构化、执行与监督项目沟通，以提高沟通的有效性。该计划包括如下信息：",
+            "links": [
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/caigouguanliPlan"
+                },
+                {
+                    "name": "变更管理计划",
+                    "link": "/chapter/project/biangengguanliPlan"
+                },
+                {
+                    "name": "进度管理计划",
+                    "link": "/chapter/project/jingduguanliPlan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "质量报告",
+                    "link": "/chapter/projectFiles/zhiliangbaogao"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "资源需求",
+                    "link": "/chapter/projectFiles/ziyuanxuqiu"
+                },
+                {
+                    "name": "需求跟踪矩阵",
+                    "link": "/chapter/projectFiles/xuqiugenzongjuzhen"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "采购管理计划",
+                    "link": "/chapter/project/caigouguanliPlan"
+                },
+                {
+                    "name": "进度基准",
+                    "link": "/chapter/project/jinduJiZhun"
+                },
+                {
+                    "name": "成本基准",
+                    "link": "/chapter/project/chengbenJiZhun"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/monitor/superrelevjoin": {
+        "name": "监督相关方参与",
+        "remark": "监督相关方参与是监督项目相关方关系，并通过修订参与策略和计划来引导相关方合理参与项目的过程。本过程的主要作用是，随着项目进展和环境变化，维持或提升相关方参与项目的效率和效果。本过程需要在整个项目期间开展。",
+        "imgs": [
+            "images/jianduganxirencanyu/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "可用作本过程输入的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "项目沟通记录",
+                    "link": "/chapter/projectFiles/xiangmugoutongjilu"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "相关方登记册",
+                    "link": "/chapter/projectFiles/ganxirendengjice"
+                }
+            ],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "资源管理计划",
+                    "link": "/chapter/project/ziyuanguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    },
+    "/end/project": {
+        "name": "结束项目或阶段",
+        "remark": "结束项目或阶段是终结项目、阶段或合同的所有活动的过程。本过程的主要作用是，存档项目或阶段信息，完成计划的工作，释放组织资源以展开新的工作。本过程仅开展一次或仅在项目的预定义点开展。",
+        "imgs": [
+            "images/jieshuxiangmuhuojieduan/index.png"
+        ],
+        "projectPlan": {
+            "name": "项目管理计划组件",
+            "remark": "项目管理计划的任何组件都可用作本过程的输入。",
+            "links": [],
+            "desc": ""
+        },
+        "projectFileEg": {
+            "name": "项目文件示例",
+            "remark": "可用作本过程输入的项目文件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "假设日志",
+                    "link": "/chapter/projectFiles/jiasherizhi"
+                },
+                {
+                    "name": "估算依据",
+                    "link": "/chapter/projectFiles/gusuanyiju"
+                },
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "问题日志",
+                    "link": "/chapter/projectFiles/wentiLog"
+                },
+                {
+                    "name": "经验教训登记册",
+                    "link": "/chapter/projectFiles/jingyanjiaoxundengjice"
+                },
+                {
+                    "name": "里程碑清单",
+                    "link": "/chapter/projectFiles/lichengbeiqingdan"
+                },
+                {
+                    "name": "项目沟通记录",
+                    "link": "/chapter/projectFiles/xiangmugoutongjilu"
+                },
+                {
+                    "name": "质量控制测量结果",
+                    "link": "/chapter/projectFiles/zhiliangkongzhiceliangjieguo"
+                },
+                {
+                    "name": "质量报告",
+                    "link": "/chapter/projectFiles/zhiliangbaogao"
+                },
+                {
+                    "name": "需求文件",
+                    "link": "/chapter/projectFiles/xuqiuLog"
+                },
+                {
+                    "name": "风险登记册",
+                    "link": "/chapter/projectFiles/fengxiandengjice"
+                },
+                {
+                    "name": "风险报告",
+                    "link": "/chapter/projectFiles/fengxianbaogao"
+                }
+            ],
+            "desc": ""
+        },
+        "projectFileUpdate": {
+            "name": "项目文件更新",
+            "remark": "可在本过程更新的项目文件包括（但不限于）经验教训登记册。",
+            "links": [],
+            "desc": ""
+        },
+        "projectPlanUpdate": {
+            "name": "项目管理计划更新",
+            "remark": "可在本过程更新的项目管理计划组件包括（但不限于）：",
+            "links": [
+                {
+                    "name": "变更日志",
+                    "link": "#"
+                },
+                {
+                    "name": "需求管理计划",
+                    "link": "/chapter/project/xuqiuguanliPlan"
+                },
+                {
+                    "name": "沟通管理计划",
+                    "link": "/chapter/project/goutongguanliPlan"
+                },
+                {
+                    "name": "风险管理计划",
+                    "link": "/chapter/project/fengxianguanliPlan"
+                },
+                {
+                    "name": "相关方参与计划",
+                    "link": "/chapter/project/ganxirenjoinplan"
+                }
+            ],
+            "desc": ""
+        }
+    }
+}
