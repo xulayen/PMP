@@ -92,7 +92,7 @@ export default class Main extends Component {
                                     </div>
                                 </div>
                                 <div className="progress">
-                                    <div className="progress-bar" style={{ width: "25%" }}></div>
+                                    <div className="progress-bar" style={{ width: "100%" }}></div>
                                 </div>
                                 <div className="window-body with-sidebar">
                                     <div className="sidebar">
