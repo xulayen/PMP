@@ -74,19 +74,11 @@ export default class MyRoute extends Component {
 
     constructor(props) {
         super(props);
-        console.log(this.props.Router.name)
+        console.log(this)
     }
 
     render() {
-        if (this.props.Router.name === "HashRouter") {
-            if (window.location.hash === "#/") {
-                return <Redirect to="/pre/face" />;
-            }
-        } else {
-            if (window.location.pathname === "/") {
-                return <Redirect to="/pre/face" />;
-            }
-        }
+
 
         return (
             <Switch>
@@ -206,7 +198,6 @@ export default class MyRoute extends Component {
                 <Route path="/chapter/projectFiles/ziyuanrili" component={ziyuanrili} />
                 <Route path="/chapter/projectFiles/ziyuanxuqiu" component={ziyuanxuqiu} />
 
-
                 {/* 404 */}
                 <Route path="/404" component={NotFound} />
 
@@ -214,7 +205,7 @@ export default class MyRoute extends Component {
                 <Route path="/pre/face" component={preface} />
 
                 {/* 默认 */}
-                <Route component={NotFound} />
+                <Route component={preface} />
 
 
             </Switch>

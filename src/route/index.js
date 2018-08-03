@@ -227,7 +227,7 @@ export default class Main extends Component {
                                         </div>
                                     </div>
                                     <div className="workspace">
-                                    <MyRoute Router={Router}/>
+                                    <MyRoute/>
                                     </div>
                                 </div>
                             </div>
