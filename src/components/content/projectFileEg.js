@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TemplateProject from './templateProject';
+import {common} from '../../common';
 export default class projectFileEg extends Component {
 
     constructor(props) {
@@ -28,7 +29,7 @@ export default class projectFileEg extends Component {
     }
 
     getAbout() {
-        var _c = window.location.pathname;
+        let _c=common.getRouteName();
         console.log(this.props.navData)
         this.nav = this.props.navData[_c].projectFileEg
     }

@@ -73,7 +73,7 @@ export default class XiuQiuGenZongJuZhen extends Component {
 
                             </h4>
 
-                            <p class="align-center">
+                            <p className="align-center">
                                 <img alt="" src={require('../../../static/images/xuqiugenzongjuzhen/1.png')} />
                             </p>
                             <br />

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import {
-    BrowserRouter as Router,
     Route,
     Switch,
     Redirect,
@@ -73,10 +72,20 @@ import {
 
 export default class MyRoute extends Component {
 
-    render() {
+    constructor(props) {
+        super(props);
+        console.log(this.props.Router.name)
+    }
 
-        if (window.location.pathname === "/") {
-            return <Redirect to="/pre/face" />;
+    render() {
+        if (this.props.Router.name === "HashRouter") {
+            if (window.location.hash === "#/") {
+                return <Redirect to="/pre/face" />;
+            }
+        } else {
+            if (window.location.pathname === "/") {
+                return <Redirect to="/pre/face" />;
+            }
         }
 
         return (

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 
 import {
-    BrowserRouter as Router,
+    //BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Switch,
     Redirect,
@@ -42,7 +43,14 @@ export default class Main extends Component {
             $(".window-body").toggleClass("with-sidebar")
         });
 
-        var _c = window.location.pathname;
+
+        let _c, _t;
+        if (window.location.hash) {
+            _c = window.location.hash;
+            _c = _c.substr(_c.indexOf('#'))
+        } else {
+            _c = window.location.pathname;
+        }
         $('.sidebar-body .catalog-body li a').each(function(i){
             let t=$(this);
             if($(this).attr("href")==_c){
@@ -55,10 +63,19 @@ export default class Main extends Component {
                 $(this).parents("ul").parents("li").find("i.icon.caret").removeClass("right").addClass("down");
             }
         })
-
-
-
     }
+
+
+    componentWillUpdate() {
+        // 当组件的props发生改变时，组件更新，会调用如下的生命周期钩子
+        // "componentWillReceiveProps"
+        // "shouldComponentUpdate"
+        // "componentWillUpdate"
+        // "render"
+        // "componentDidUpdate"
+        //alert(1433)
+    }
+    
 
 
     render() {
@@ -210,7 +227,7 @@ export default class Main extends Component {
                                         </div>
                                     </div>
                                     <div className="workspace">
-                                    <MyRoute />
+                                    <MyRoute Router={Router}/>
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {common} from '../../common';
 export default class projectFileEg extends Component {
 
     constructor(props) {
@@ -27,7 +28,7 @@ export default class projectFileEg extends Component {
     }
 
     getAbout() {
-        var _c = window.location.pathname;
+        let _c=common.getRouteName();
         console.log(this.props.navData)
         this.nav = this.props.navData[_c]
     }
@@ -38,7 +39,7 @@ export default class projectFileEg extends Component {
         const nav = this.nav;
         if (nav) {
             return (
-                <p class="align-center">
+                <p className="align-center">
                     {
                         nav.imgs[0]?<img alt="" src={require('../../static/'+nav.imgs[0])}/>:''
                     }

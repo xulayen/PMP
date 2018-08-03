@@ -66,7 +66,7 @@ export default class FanWeiShuoMingShu extends Component {
                                     <li>项目的除外责任。识别排除在项目之外的内容。明确说明哪些内容不属于项目范围，有助于管理相关方的期望及减少范围蔓延。</li>
                                 </ul>
                             </h4>
-                            <p class="align-center">
+                            <p className="align-center">
 
                                 <img alt="" src={require('../../../static/images/fanweishuomingshu/1.png')} />
 

@@ -67,7 +67,7 @@ export default class perface extends Component {
                             <h4>
                                 <a id="_0"></a>项目计划和文件</h4>
                         </blockquote>
-                        <p class="align-center">
+                        <p className="align-center">
                             <img alt="" src={require('../../static/images/summary.png')} />
                         </p>
                     </div>

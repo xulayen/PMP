@@ -61,7 +61,7 @@ export default class FengXianGuanLiPlan extends Component {
                                     <li>时间安排。确定在项目生命周期中实施项目风险管理过程的时间和频率，确定风险管理活动并将其纳入项目进度计划。</li>
                                     <li>风险类别。确定对单个项目风险进行分类的方式。通常借助风险分解结构 (RBS)来构建风险类别。风险分解结构是潜在风险来源的层级展现（示例见下图）。风险分解结构有助于项目团队考虑单个项目风险的全部可能来源，对识别风险或归类已识别风险特别有用。组织可能有适用于所有项目的通用风险分解结构，也可能针对不同类型项目使用几种不同的风险分解结构框架，或者允许项目量身定制专用的风险分解结构。如果未使用风险分解结构，组织则可能采用某种常见的风险分类框架，既可以是简单的类别清单，也可以是基于项目目标的某种类别结构。</li>
                                 </ul>
-                                <p class="align-center">
+                                <p className="align-center">
                                     <img alt="" src={require('../../../static/images/fengxianguanliPlan/1.png')} />
                                 </p>
                                 <ul>
@@ -70,7 +70,7 @@ export default class FengXianGuanLiPlan extends Component {
                                 </ul>
                                 通过将影响定义为负面威胁（工期延误、成本增加和绩效不佳）和正面机会（工期缩短、成本节约和绩效改善），表格所示的量表可同时用于评估威胁和机会。
                             </h4>
-                            <p class="align-center">
+                            <p className="align-center">
                                 <img alt="" src={require('../../../static/images/fengxianguanliPlan/2.png')} />
                             </p>
                             <h4>
@@ -79,7 +79,7 @@ export default class FengXianGuanLiPlan extends Component {
                                 </ul>
                                 下图是概率和影响矩阵的示例，其中也有数值风险评分的可能方法。
                             </h4>
-                            <p class="align-center">
+                            <p className="align-center">
                                 <img alt="" src={require('../../../static/images/fengxianguanliPlan/3.png')} />
                             </p>
                             <h4 data-line="2" className="line" style={{ textIndent: "2em" }}>

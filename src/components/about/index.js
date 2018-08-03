@@ -20,7 +20,7 @@ export default class aboutModel extends Component {
         this.getAbout();
     }
 
-    componentWillUpdate(){
+    componentWillUpdate() {
         // 当组件的props发生改变时，组件更新，会调用如下的生命周期钩子
         // "componentWillReceiveProps"
         // "shouldComponentUpdate"
@@ -30,15 +30,23 @@ export default class aboutModel extends Component {
         this.getAbout();
     }
 
-    getAbout(){
-        var _c = window.location.pathname;
-        var _t = _c.substr(_c.indexOf('/') + 1, _c.lastIndexOf('/') - 1)
+    getAbout() {
+        let _c, _t;
+        if (window.location.hash) {
+            _c = window.location.hash;
+            _t = _c.substr(_c.indexOf('/') + 1, _c.lastIndexOf('/') - 2)
+        } else {
+
+            _c = window.location.pathname;
+            _t = _c.substr(_c.indexOf('/') + 1, _c.lastIndexOf('/') - 1)
+        }
+
         this.aboutData = aboutList[_t][0]
     }
 
 
     render() {
-        const about=this.aboutData;
+        const about = this.aboutData;
         return (
             <div className="article-wrap">
                 <div className="article">
@@ -63,17 +71,17 @@ export default class aboutModel extends Component {
                         <br />
 
                         {
-                            about.imgs[0]?
+                            about.imgs[0] ?
                                 <p className="align-center" >
-                                    <img alt="cc"  src={require('../../static/images/about/'+about.imgs[0])} />
-                                </p> :''                            
+                                    <img alt="cc" src={require('../../static/images/about/' + about.imgs[0])} />
+                                </p> : ''
                         }
 
                         {
-                            about.imgs[1]?
+                            about.imgs[1] ?
                                 <p className="align-center" >
-                                    <img alt="cc"  src={require('../../static/images/about/'+about.imgs[1])} />
-                                </p> :''                            
+                                    <img alt="cc" src={require('../../static/images/about/' + about.imgs[1])} />
+                                </p> : ''
                         }
                     </div>
                 </div>

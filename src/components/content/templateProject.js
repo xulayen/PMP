@@ -32,7 +32,7 @@ export default class TemplateProject extends Component {
 
     render() {
         const nav = this.props.nav;
-
+        const hashName = window.location.hash ? "/#" : "";
         if (nav) {
             return (
                 <div>
@@ -48,7 +48,7 @@ export default class TemplateProject extends Component {
                         {
                             nav.links?
                                 nav.links.map(data => {
-                                    return <li> <a href={data.link}>{data.name}</a> </li>
+                                    return <li> <a href={hashName+data.link}>{data.name}</a> </li>
                                 }):null
                         
                         }

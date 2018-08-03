@@ -62,10 +62,10 @@ export default class ChenBenJiZhun extends Component {
                             {/* <ol>
                                 <li></li>
                             </ol> */}
-                            <p class="align-center">
+                            <p className="align-center">
                                 <img alt="" src={require('../../../static/images/chengbenjizhun/1.png')} />
                             </p>
-                            <p class="align-center">
+                            <p className="align-center">
                                 <img alt="" src={require('../../../static/images/chengbenjizhun/2.png')} />
                             </p>
                             <h4 data-line="2" className="line" style={{ textIndent: "2em" }}>

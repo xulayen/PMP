@@ -69,7 +69,7 @@ export default class XiangMuShengMingZhouQi extends Component {
 
                                 </ul>
 
-                                <p class="align-center">
+                                <p className="align-center">
                                     <img alt="" src={require('../../../static/images/xiangmushengmingzhouqi/1.png')} />
                                 </p>
                                 通用的生命周期结构一般具有以下特征：
@@ -84,7 +84,7 @@ export default class XiangMuShengMingZhouQi extends Component {
 
                                 </ul>
 
-                                <p class="align-center">
+                                <p className="align-center">
                                     <img alt="" src={require('../../../static/images/xiangmushengmingzhouqi/2.png')} />
                                 </p>
                             </h4>

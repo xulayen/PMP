@@ -8,6 +8,8 @@ import ProjectPlanUpdate from './projectPlanUpdate';
 import ProjectImgs from './projectImgs';
 import navData from '../../static/data/nav';
 
+import {common} from '../../common';
+
 export default class Content extends Component {
 
     constructor(props) {
@@ -36,7 +38,7 @@ export default class Content extends Component {
     }
 
     getAbout() {
-        var _c = window.location.pathname;
+        let _c=common.getRouteName();
         console.log(navData)
         this.nav = navData[_c]
     }
