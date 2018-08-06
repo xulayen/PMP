@@ -67,7 +67,9 @@ import {
     ziyuanxuqiu,
     //zhiliangbaogao,
 
-    NotFound
+    NotFound,
+
+    appreciateRankList
 } from '../container'
 
 export default class MyRoute extends Component {
@@ -197,6 +199,9 @@ export default class MyRoute extends Component {
                 <Route path="/chapter/projectFiles/ziyuanfenjiejiegou" component={ziyuanfenjiejiegou} />
                 <Route path="/chapter/projectFiles/ziyuanrili" component={ziyuanrili} />
                 <Route path="/chapter/projectFiles/ziyuanxuqiu" component={ziyuanxuqiu} />
+
+                {/* 赞赏榜 */}
+                <Route path="/appreciateRankList" component={appreciateRankList} />
 
                 {/* 404 */}
                 <Route path="/404" component={NotFound} />

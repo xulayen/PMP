@@ -218,12 +218,18 @@ export default class Main extends Component {
                                                             )}
                                                         </ul>
                                                     </li>
+
+                                                    <li className="">
+                                                        <div className="wholerow"></div>
+                                                        <i className="icon caret right"></i>
+                                                        <a href={window.location.hash?"#/appreciateRankList":"/appreciateRankList"} className="text">赞赏榜</a>
+                                                    </li>
                                                     
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="sidebar-copyright">
-                                        本文档由<a href="http://xulayen.com" target="_blank">徐大腿</a> 强力驱动
+                                        本<a href="https://github.com/xulayen/pmp" target="_blank">文档</a>由<a href="http://xulayen.com" target="_blank">徐大腿</a>强力驱动
                                         </div>
                                     </div>
                                     <div className="workspace">

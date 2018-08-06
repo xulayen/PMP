@@ -54,6 +54,8 @@ import ziyuanxuqiu from '../components/content/projectFile/ziyuanxuqiu';
 
 import NotFound from '../components/404';
 
+import appreciateRankList from '../components/zanshang/rank.js';
+
 export {
     preface,
     about,
@@ -109,6 +111,8 @@ export {
     ziyuanrili,
     ziyuanxuqiu,
 
-    NotFound
+    NotFound,
+
+    appreciateRankList
 
 }

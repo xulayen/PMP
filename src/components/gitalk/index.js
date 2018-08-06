@@ -5,6 +5,8 @@ import React, { Component } from 'react';
 
 import config from '../../config';
 
+import ZanShang from '../zanshang';
+
 export default class GitalkContainer extends Component {
 
     constructor(props) {
@@ -20,6 +22,9 @@ export default class GitalkContainer extends Component {
     render() {
         return (
             <div className="article-comment">
+
+                <ZanShang/>
+
                 <div id="gitalk-container">
 
                 </div>
