@@ -30,4 +30,4 @@ import {
 
 ```
 
-[在线查看](http://pmp.xulayen.com/index.html#/pre/face)
+[在线查看](http://pmp.xulayen.com/)
