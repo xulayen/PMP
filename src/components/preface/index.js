@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ReactMarkdown from 'react-markdown';
+//import ReactMarkdown from 'react-markdown';
+import Gitalk from '../gitalk';
 
 
 
@@ -71,8 +72,8 @@ export default class perface extends Component {
                             <img alt="" src={require('../../static/images/summary.png')} />
                         </p>
                     </div>
-
-
+                    
+                    <Gitalk />
 
                     {/* <div className="article-navigation">
                         <span className="next">下一篇：

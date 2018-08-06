@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 
 import aboutList from '../../static/data/about';
 
+import Gitalk from '../gitalk';
+
 export default class aboutModel extends Component {
 
     constructor(props) {
@@ -85,6 +87,7 @@ export default class aboutModel extends Component {
                         }
                     </div>
                 </div>
+                <Gitalk/>
             </div>
         )
     }

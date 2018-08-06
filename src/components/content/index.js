@@ -8,7 +8,9 @@ import ProjectPlanUpdate from './projectPlanUpdate';
 import ProjectImgs from './projectImgs';
 import navData from '../../static/data/nav';
 
-import {common} from '../../common';
+import { common } from '../../common';
+
+import Gitalk from '../gitalk';
 
 export default class Content extends Component {
 
@@ -38,7 +40,7 @@ export default class Content extends Component {
     }
 
     getAbout() {
-        let _c=common.getRouteName();
+        let _c = common.getRouteName();
         console.log(navData)
         this.nav = navData[_c]
     }
@@ -60,8 +62,8 @@ export default class Content extends Component {
                         <h1>{nav.name}</h1>
                     </div>
                     <div className="article-body">
-                        <h4 data-line="2" className="line" style={{ textIndent: "2em" }} dangerouslySetInnerHTML={{__html:nav.remark}}>
-                            
+                        <h4 data-line="2" className="line" style={{ textIndent: "2em" }} dangerouslySetInnerHTML={{ __html: nav.remark }}>
+
                         </h4>
                         <ProjectImgs navData={navData} />
 
@@ -75,6 +77,7 @@ export default class Content extends Component {
 
                     </div>
                 </div>
+                <Gitalk />
             </div>
         )
     }
