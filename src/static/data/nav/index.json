@@ -629,7 +629,7 @@
         }
     },
     "/plan/makebudget": {
-        "name": "制定预算t",
+        "name": "制定预算",
         "remark": "制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。本过程仅开展一次或仅在项目的预定义点开展",
         "imgs": [
             "images/zhidingyusuan/index.png"
@@ -793,7 +793,7 @@
     },
     "/plan/develophumanplan": {
         "name": "制定人力资源管理计划",
-        "remark": "制定人力资源管理计划在PMBook6.0中已经去掉新增了规划关系人参与。参考2.22",
+        "remark": "制定人力资源管理计划在PMBOK6.0中已经去掉新增了规划关系人参与。参考2.22",
         "imgs": []
     },
     "/plan/planningcommunication": {

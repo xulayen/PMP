@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
 //问题日志
-export default class WenTiLog extends Component {
+export default class WenTiLog extends ContentMain {
 
     constructor(props) {
         super(props);

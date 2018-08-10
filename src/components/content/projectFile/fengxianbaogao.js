@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class FengXianBaoGao extends Component {
+export default class FengXianBaoGao extends ContentMain {
 
     constructor(props) {
         super(props);

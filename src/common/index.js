@@ -9,7 +9,19 @@ var common={
             _c = window.location.pathname;
         }
         return _c;
+    },
+    isMobile:function(){
+        var sUserAgent=navigator.userAgent;
+        var mobileAgents=['Android','iPhone','Symbian','WindowsPhone','iPod','BlackBerry','Windows CE'];
+
+        for( var i=0;i<mobileAgents.length;i++){
+
+            if(sUserAgent.indexOf(mobileAgents[i]) > -1){
+                return true;
+            }
+        }
+        return false;
     }
 }
 
-export  { common}
+export { common}

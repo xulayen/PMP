@@ -4,11 +4,35 @@ import React, { Component } from 'react';
 
 import '../../static/css/zanshang.css'
 
+//import ContentMain from '../content';
+
+import $ from 'jquery';
+
+import { common } from '../../common';
+
 export default class ZanShang extends Component {
 
     constructor(props) {
         super(props);
         console.log(props)
+    }
+
+    componentDidMount() {
+        if (common.isMobile()) {
+            let i=0;
+            $('#reward').click(function () {
+                if (i%2===0) {
+                    $('#reward_content').css({
+                        "display": "block"
+                    })
+                } else {
+                    $('#reward_content').css({
+                        "display": "none"
+                    })
+                }
+                i++;
+            })
+        }
     }
 
     render() {

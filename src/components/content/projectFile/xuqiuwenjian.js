@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
 //需求文件
-export default class XuQiuWenJian extends Component {
+export default class XuQiuWenJian extends ContentMain {
 
     constructor(props) {
         super(props);

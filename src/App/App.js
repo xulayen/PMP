@@ -9,7 +9,7 @@ class App extends Component {
           <div className="window-container">
             <div className="window-head">
               <div className="toolbar">
-                <a className="title" href="#">PMBOOK6.0</a>
+                <a className="title" href="#">PMBOK6.0</a>
                 <div className="extra"></div>
               </div>
             </div>

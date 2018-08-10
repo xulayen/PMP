@@ -11,7 +11,7 @@ import {
 
 import { Provider } from 'mobx-react';
 
-import'../static/css/markdown.css'
+import '../static/css/markdown.css'
 
 import $ from 'jquery';
 
@@ -19,9 +19,12 @@ import menuList from '../static/data/menu.json';
 
 import MyRoute from './route';
 
+import {common} from '../common';
+
 export default class Main extends Component {
 
-    componentDidMount(){
+    componentDidMount() {
+
         $('.sidebar-body .catalog-body i.caret').click(function () {
             if ($(this).parent("li").hasClass("open")) {
                 $(this).parent("li").removeClass("open");
@@ -39,10 +42,6 @@ export default class Main extends Component {
             $(this).parent("li").addClass("active").siblings().removeClass("active");
         });
 
-        $(".icon.align.justify").click(function () {
-            $(".window-body").toggleClass("with-sidebar")
-        });
-
 
         let _c, _t;
         if (window.location.hash) {
@@ -51,9 +50,10 @@ export default class Main extends Component {
         } else {
             _c = window.location.pathname;
         }
-        $('.sidebar-body .catalog-body li a').each(function(i){
-            let t=$(this);
-            if($(this).attr("href")==_c){
+
+        $('.sidebar-body .catalog-body li a').each(function (i) {
+            let t = $(this);
+            if ($(this).attr("href") == _c) {
                 $('li').removeClass("active");
                 console.log($(this).parents("ul").parents("li"))
                 $(this).parent("li").addClass("active").siblings().removeClass("active");
@@ -63,6 +63,13 @@ export default class Main extends Component {
                 $(this).parents("ul").parents("li").find("i.icon.caret").removeClass("right").addClass("down");
             }
         })
+
+        if(common.isMobile()){
+            $('a.text').click(function(){
+                $(".window-body").removeClass("with-sidebar");
+            });
+            $(".window-body").removeClass("with-sidebar");
+        }
     }
 
 
@@ -75,7 +82,7 @@ export default class Main extends Component {
         // "componentDidUpdate"
         //alert(1433)
     }
-    
+
 
 
     render() {
@@ -87,7 +94,7 @@ export default class Main extends Component {
                             <div className="window-container">
                                 <div className="window-head">
                                     <div className="toolbar">
-                                        <a href="#" className="title" >PMBOOK6.0系统解析</a>
+                                        <a href="#" className="title" >PMBOK6.0系统解析</a>
                                         <div className="extra"></div>
                                     </div>
                                 </div>
@@ -117,14 +124,14 @@ export default class Main extends Component {
                                                         <i className="icon caret right"></i>
                                                         <a href="#" className="text">第一章 启动过程组</a>
                                                         <ul>
-                                                        {
-                                                            menuList.startup.map((data) =>
-                                                            <li className="">
-                                                                <div className="wholerow"></div>
-                                                                <i className="icon"></i>
-                                                                <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                            </li>
-                                                        )}
+                                                            {
+                                                                menuList.startup.map((data) =>
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
                                                     <li className="">
@@ -134,12 +141,12 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.plan.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
                                                     <li className="">
@@ -149,12 +156,12 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.implement.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
                                                     <li className="">
@@ -164,12 +171,12 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.monitor.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
                                                     <li className="">
@@ -179,12 +186,12 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.end.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
                                                     <li className="">
@@ -194,12 +201,12 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.project.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
 
@@ -210,30 +217,30 @@ export default class Main extends Component {
                                                         <ul>
                                                             {
                                                                 menuList.projectFile.map((data) =>
-                                                                <li className="">
-                                                                    <div className="wholerow"></div>
-                                                                    <i className="icon"></i>
-                                                                    <Link to={data.link} className="text">{data.index} {data.name} </Link>
-                                                                </li>
-                                                            )}
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
                                                         </ul>
                                                     </li>
 
                                                     <li className="">
                                                         <div className="wholerow"></div>
                                                         <i className="icon caret right"></i>
-                                                        <a href={window.location.hash?"#/appreciateRankList":"/appreciateRankList"} className="text">赞赏榜</a>
+                                                        <a href="#/appreciateRankList" className="text">赞赏榜</a>
                                                     </li>
-                                                    
+
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="sidebar-copyright">
-                                        本<a href="https://github.com/xulayen/pmp" target="_blank">文档</a>由<a href="http://xulayen.com" target="_blank">徐大腿</a>强力驱动
+                                            本<a href="https://github.com/xulayen/pmp" target="_blank">文档</a>由<a href="http://xulayen.com" target="_blank">徐导</a>强力驱动
                                         </div>
                                     </div>
                                     <div className="workspace">
-                                    <MyRoute/>
+                                        <MyRoute />
                                     </div>
                                 </div>
                             </div>

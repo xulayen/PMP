@@ -1,8 +1,8 @@
 
 
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class ZhiLiangKongZhiCeLiangJieGauo extends Component {
+export default class ZhiLiangKongZhiCeLiangJieGauo extends ContentMain {
 
     constructor(props) {
         super(props);

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import ContentMain from '../index';
 
 
 
-
-export default class XiangMuGuanLiPlan extends Component {
+export default class XiangMuGuanLiPlan extends ContentMain {
 
     constructor(props) {
         super(props);

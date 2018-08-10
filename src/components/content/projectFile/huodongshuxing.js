@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class HuoDongShuXing extends Component {
+export default class HuoDongShuXing extends ContentMain {
 
     constructor(props) {
         super(props);

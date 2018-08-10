@@ -12,6 +12,8 @@ import { common } from '../../common';
 
 import Gitalk from '../gitalk';
 
+import $ from 'jquery';
+
 export default class Content extends Component {
 
     constructor(props) {
@@ -37,6 +39,12 @@ export default class Content extends Component {
         // "render"
         // "componentDidUpdate"
         this.getAbout();
+    }
+
+    componentDidMount() {
+        $(".item.icon").click(function () {
+            $(".window-body").toggleClass("with-sidebar")
+        });
     }
 
     getAbout() {

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class FanWeiShuoMingShu extends Component {
+export default class FanWeiShuoMingShu extends ContentMain {
 
     constructor(props) {
         super(props);

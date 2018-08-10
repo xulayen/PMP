@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
 //变更日志
-export default class BianGengLog extends Component {
+export default class BianGengLog extends ContentMain {
 
     constructor(props) {
         super(props);

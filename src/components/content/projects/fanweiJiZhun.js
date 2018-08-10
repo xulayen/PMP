@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-export default class FanWeiJiZhun extends Component {
+import ContentMain from '../index';
+export default class FanWeiJiZhun extends ContentMain {
 
     constructor(props) {
         super(props);

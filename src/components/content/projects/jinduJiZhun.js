@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-export default class JinDuJiZhun extends Component {
+import ContentMain from '../index';
+export default class JinDuJiZhun extends ContentMain {
 
     constructor(props) {
         super(props);

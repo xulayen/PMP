@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class ChenBenGuSuan extends Component {
+export default class ChenBenGuSuan extends ContentMain {
 
     constructor(props) {
         super(props);

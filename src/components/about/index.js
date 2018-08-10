@@ -5,7 +5,9 @@ import aboutList from '../../static/data/about';
 
 import Gitalk from '../gitalk';
 
-export default class aboutModel extends Component {
+import ContentMain from '../content';
+
+export default class aboutModel extends ContentMain {
 
     constructor(props) {
         super(props);

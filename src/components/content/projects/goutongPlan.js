@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-
+import ContentMain from '../index';
 //沟通管理计划
-export default class GouTongGuanliJihua extends Component {
+export default class GouTongGuanliJihua extends ContentMain {
 
     constructor(props) {
         super(props);

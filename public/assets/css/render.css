@@ -27809,4 +27809,11 @@ body {
 	left: 0\9;
 	right: 0\9
 }
+
+.none{
+	display: none;
+}
+.show{
+	display: block;
+}
 /*# sourceMappingURL=reader.css.map*/

@@ -5,33 +5,18 @@ import dimeAxis from '../../static/data/rank/index.json';
 import $ from 'jquery';
 import Gitalk from '../gitalk';
 
-export default class RankList extends Component {
+
+import ContentMain from '../content';
+
+export default class RankList extends ContentMain {
 
     constructor(props) {
         super(props);
         console.log(props)
     }
 
-    componentDidMount() {
-
-
-        // $.each(dimeAxis, function (i, e) {
-        //     var html = '<li class="time-axis-item">' +
-        //         '<div class="time-axis-date">' + e.date + '<span></span></div>' +
-        //         '<div class="time-axis-title">' + e.list.title + '</div>' +
-        //         '<p class="time-axis-achievement">' + e.list.achievement + '</p>' +
-        //         '</li>';
-        //     console.log(e)
-        //     $('.time-axis').append(html);
-        // });
-
-    }
-
     render() {
         return (
-
-
-
             <div className="article-wrap">
                 <div className="article">
                     <div className="article-head">

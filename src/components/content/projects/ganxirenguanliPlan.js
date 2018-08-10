@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-export default class GanXiRenGuanLiPlan extends Component {
+import ContentMain from '../index';
+export default class GanXiRenGuanLiPlan extends ContentMain {
 
     constructor(props) {
         super(props);

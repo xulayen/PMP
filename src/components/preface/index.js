@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 //import ReactMarkdown from 'react-markdown';
 import Gitalk from '../gitalk';
 
+import ContentMain from '../content';
 
-
-export default class perface extends Component {
+export default class perface extends ContentMain {
     render() {
         return (
             <div className="article-wrap">
@@ -63,6 +63,12 @@ export default class perface extends Component {
                             <a id="docker_16"></a>第四章主要是介绍监控过程组，以及监控过程组下的执行过程以及工具。</h5>
                         <h5 data-line="16" className="line">
                             <a id="docker_16"></a>第五章主要是介绍收尾过程组，以及收尾过程组下的执行过程以及工具。</h5>
+                        <h5 data-line="16" className="line">
+                            <a id="docker_16"></a>附录一主要是项目计划详细介绍</h5>
+                        <h5 data-line="16" className="line">
+                            <a id="docker_16"></a>附录二主要是项目文件介绍</h5>
+                        <h5 data-line="16" className="line">
+                            <a id="docker_16"></a>赞赏榜你懂得</h5>
 
                         <blockquote className="info">
                             <h4>
@@ -71,8 +77,27 @@ export default class perface extends Component {
                         <p className="align-center">
                             <img alt="" src={require('../../static/images/summary.png')} />
                         </p>
+
+                         <blockquote className="info">
+                            <h4>
+                                <a id="_0"></a>将要更新点</h4>
+                        </blockquote>
+                        <h5 data-line="7" className="line">
+                            <a id="1_docker_7"></a>1.
+                            <strong>更新/添加每个过程组需要的工具</strong>
+                        </h5>
+                        <h5 data-line="8" className="line">
+                            <a id="2__8"></a>2.
+                            <strong>添加备考神器</strong>
+                        </h5>
+                        <h5 data-line="8" className="line">
+                            <a id="2__8"></a>3.
+                            <strong>介绍世界五百强公司都在用的工具</strong>
+                        </h5>
+
+
                     </div>
-                    
+
                     <Gitalk />
 
                     {/* <div className="article-navigation">

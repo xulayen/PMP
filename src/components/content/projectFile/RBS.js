@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';import ContentMain from '../index';
 
-export default class RBS extends Component {
+export default class RBS extends ContentMain {
 
     constructor(props) {
         super(props);

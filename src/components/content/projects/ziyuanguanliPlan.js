@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-export default class ZiYuanGuanLiPlan extends Component {
+import ContentMain from '../index';
+export default class ZiYuanGuanLiPlan extends ContentMain {
 
     constructor(props) {
         super(props);
