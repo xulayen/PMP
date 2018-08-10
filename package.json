@@ -74,7 +74,7 @@
     "start-api": "cross-env NODE_ENV=production node ./server/api/index.js",
     "start-dev-api": "nodemon --watch server/api server/api/index.js",
     "start-pro": "concurrently \"npm run start-client\"  \"npm run start-api\"",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js && react-snapshot",
     "test": "node scripts/test.js --env=jsdom"
   },
   "homepage": "/",
@@ -125,5 +125,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "react-snapshot": "^1.3.0"
   }
 }
