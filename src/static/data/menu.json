@@ -545,5 +545,13 @@
 			"link": "/chapter/projectFiles/ziyuanxuqiu",
 			"index": "7.30"
 		}
+	],
+	"beiKao":[
+		{
+			"name": "备考神器",
+			"label": "备考神器",
+			"link": "/chapter/beikao/shenqi",
+			"index": "8.1"
+		}
 	]
 }

@@ -69,7 +69,10 @@ import {
 
     NotFound,
 
-    appreciateRankList
+    appreciateRankList,
+
+    beikaoshenqi,
+    pdfreader
 } from '../container'
 
 export default class MyRoute extends Component {
@@ -200,6 +203,11 @@ export default class MyRoute extends Component {
                 <Route path="/chapter/projectFiles/ziyuanrili" component={ziyuanrili} />
                 <Route path="/chapter/projectFiles/ziyuanxuqiu" component={ziyuanxuqiu} />
 
+                {/* 备考 */}
+                <Route path="/pdf/reader/:id" component={pdfreader} />
+                <Route path="/chapter/beikao/shenqi" component={beikaoshenqi} />
+                
+
                 {/* 赞赏榜 */}
                 <Route path="/appreciateRankList" component={appreciateRankList} />
 
@@ -211,6 +219,8 @@ export default class MyRoute extends Component {
 
                 {/* 默认 */}
                 <Route component={preface} />
+
+
 
 
             </Switch>

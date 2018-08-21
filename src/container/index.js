@@ -56,6 +56,10 @@ import NotFound from '../components/404';
 
 import appreciateRankList from '../components/zanshang/rank.js';
 
+import pdfreader from '../components/beikao/pdfreader.js';
+
+import beikaoshenqi from '../components/beikao/beikaoshenqi';
+
 export {
     preface,
     about,
@@ -113,6 +117,9 @@ export {
 
     NotFound,
 
-    appreciateRankList
+    appreciateRankList,
+
+    beikaoshenqi,
+    pdfreader
 
 }

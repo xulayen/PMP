@@ -21,6 +21,8 @@ import MyRoute from './route';
 
 import {common} from '../common';
 
+import  * as stores from '../stores';
+
 export default class Main extends Component {
 
     componentDidMount() {
@@ -87,7 +89,7 @@ export default class Main extends Component {
 
     render() {
         return (
-            <Provider>
+            <Provider {...stores}>
                 <Router>
                     <div id="main">
                         <div className="root">
@@ -230,6 +232,22 @@ export default class Main extends Component {
                                                         <div className="wholerow"></div>
                                                         <i className="icon caret right"></i>
                                                         <a href="#/appreciateRankList" className="text">赞赏榜</a>
+                                                    </li>
+
+                                                    <li className="">
+                                                        <div className="wholerow"></div>
+                                                        <i className="icon caret right"></i>
+                                                        <a href="#" className="text">备考资料</a>
+                                                        <ul>
+                                                            {
+                                                                menuList.beiKao.map((data) =>
+                                                                    <li className="">
+                                                                        <div className="wholerow"></div>
+                                                                        <i className="icon"></i>
+                                                                        <Link to={data.link} className="text">{data.index} {data.name} </Link>
+                                                                    </li>
+                                                                )}
+                                                        </ul>
                                                     </li>
 
                                                 </ul>
