@@ -25,7 +25,8 @@ export default class perface extends ContentMain {
                                 <a id="_0"></a>主要部分</h4>
                         </blockquote>
                         <h4 data-line="2" className="line">
-                            <a id="_2"></a>本教程需要以实践部分为主，理论部分相关文档已经成熟，所以不做过多解释。</h4>
+                            <a id="_2"></a>本教程需要以实践部分为主，理论部分相关文档已经成熟，所以不做过多解释。
+                            以及pmbok第六版知识点总结！</h4>
                         <blockquote className="info">
                             <h4>
                                 <a id="_4"></a>读者对象</h4>
