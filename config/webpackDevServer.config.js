@@ -6,10 +6,22 @@ const ignoredFiles = require('react-dev-utils/ignoredFiles');
 const config = require('./webpack.config.dev');
 const paths = require('./paths');
 
+const path = require('path');
+
 const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
 const host = process.env.HOST || '0.0.0.0';
 
-module.exports = function(proxy, allowedHost) {
+const htmlPluginsAray = paths.htmlArray.map((v) => {
+  const fileParse = path.parse(v);
+  return {
+    from: new RegExp(`^\/${fileParse.base}`), to: `/build/${fileParse.base}`
+  };
+});
+
+
+
+
+module.exports = function (proxy, allowedHost) {
   return {
     // WebpackDevServer 2.4.3 introduced a security fix that prevents remote
     // websites from potentially accessing local content through DNS rebinding:
@@ -78,6 +90,7 @@ module.exports = function(proxy, allowedHost) {
       // Paths with dots should still use the history fallback.
       // See https://github.com/facebookincubator/create-react-app/issues/387.
       disableDotRule: true,
+      rewrites: htmlPluginsAray
     },
     public: allowedHost,
     proxy,
