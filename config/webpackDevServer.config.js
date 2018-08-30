@@ -11,13 +11,6 @@ const path = require('path');
 const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
 const host = process.env.HOST || '0.0.0.0';
 
-const htmlPluginsAray = paths.htmlArray.map((v) => {
-  const fileParse = path.parse(v);
-  return {
-    from: new RegExp(`^\/${fileParse.base}`), to: `/build/${fileParse.base}`
-  };
-});
-
 
 
 
@@ -89,8 +82,7 @@ module.exports = function (proxy, allowedHost) {
     historyApiFallback: {
       // Paths with dots should still use the history fallback.
       // See https://github.com/facebookincubator/create-react-app/issues/387.
-      disableDotRule: true,
-      rewrites: htmlPluginsAray
+      disableDotRule: true
     },
     public: allowedHost,
     proxy,
