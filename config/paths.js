@@ -4,16 +4,12 @@ const path = require('path');
 const fs = require('fs');
 const url = require('url');
 
-// 多页应用入口
-const globby = require('globby');
 
 
 // Make sure any symlinks in the project folder are resolved:
 // https://github.com/facebookincubator/create-react-app/issues/637
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
-// 多页应用入口
-const htmlArray = globby.sync([path.join(resolveApp('public'), '/*.html')]);
 const envPublicUrl = process.env.PUBLIC_URL;
 
 function ensureSlash(path, needsSlash) {
@@ -56,6 +52,5 @@ module.exports = {
   testsSetup: resolveApp('src/setupTests.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
-  servedPath: getServedPath(resolveApp('package.json')),
-  htmlArray
+  servedPath: getServedPath(resolveApp('package.json'))
 };

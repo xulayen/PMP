@@ -10,40 +10,10 @@ const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 
-
-// 遍历html 多入口
-const entryObj = {};
-const htmlPluginsAray = paths.htmlArray.map((v) => {
-  const fileParse = path.parse(v);
-
-  entryObj[fileParse.name] = [
-    require.resolve('./polyfills'),
-    require.resolve('react-dev-utils/webpackHotDevClient'),
-    `${paths.appSrc}/${fileParse.name}.js`,
-  ]
-
-  return new HtmlWebpackPlugin({
-    inject: true,
-    chunks: [fileParse.name],
-    template: `${paths.appPublic}/${fileParse.base}`,
-    filename: fileParse.base,
-    // minify: {
-    //   removeComments: true,
-    //   collapseWhitespace: true,
-    //   removeRedundantAttributes: true,
-    //   useShortDoctype: true,
-    //   removeEmptyAttributes: true,
-    //   removeStyleLinkTypeAttributes: true,
-    //   keepClosingSlash: true,
-    //   minifyJS: true,
-    //   minifyCSS: true,
-    //   minifyURLs: true,
-    // },
-  })
-});
 
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -89,41 +59,24 @@ module.exports = {
   // You can exclude the *.map files from the build during deployment.
   devtool: shouldUseSourceMap ? 'source-map' : false,
   // In production, we only want to load the polyfills and the app code.
-  //entry: [require.resolve('./polyfills'), paths.appIndexJs],
-  // output: {
-  //   // The build folder.
-  //   path: paths.appBuild,
-  //   // Generated JS file names (with nested folders).
-  //   // There will be one main bundle, and one file per asynchronous chunk.
-  //   // We don't currently advertise code splitting but Webpack supports it.
-  //   filename: 'static/js/[name].[chunkhash:8].js',
-  //   chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
-  //   // We inferred the "public path" (such as / or /my-project) from homepage.
-  //   publicPath: publicPath,
-  //   // Point sourcemap entries to original disk location (format as URL on Windows)
-  //   devtoolModuleFilenameTemplate: info =>
-  //     path
-  //       .relative(paths.appSrc, info.absoluteResourcePath)
-  //       .replace(/\\/g, '/'),
-  // },
-  entry: entryObj,
-  //多入口输出
+  entry: [require.resolve('./polyfills'), paths.appIndexJs],
   output: {
+    // The build folder.
     path: paths.appBuild,
-    // Add /* filename */ comments to generated require()s in the output.
-    pathinfo: true,
-    // This does not produce a real file. It's just the virtual path that is
-    // served by WebpackDevServer in development. This is the JS bundle
-    // containing code from all our entry points, and the Webpack runtime.
+    // Generated JS file names (with nested folders).
+    // There will be one main bundle, and one file per asynchronous chunk.
+    // We don't currently advertise code splitting but Webpack supports it.
     filename: 'static/js/[name].[chunkhash:8].js',
-    // There are also additional JS chunk files if you use code splitting.
-    chunkFilename: 'static/js/[name].chunk.js',
-    // This is the URL that app is served from. We use "/" in development.
+    chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
+    // We inferred the "public path" (such as / or /my-project) from homepage.
     publicPath: publicPath,
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info =>
-      path.resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
+      path
+        .relative(paths.appSrc, info.absoluteResourcePath)
+        .replace(/\\/g, '/'),
   },
+
   resolve: {
     // This allows you to set a fallback for where Webpack should look for modules.
     // We placed these paths second because we want `node_modules` to "win"
@@ -154,21 +107,6 @@ module.exports = {
       // Make sure your source files are compiled, as they will not be processed in any way.
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
 
-
-      // //2018年8月28日 16:48:56 xulayen添加
-      new webpack.optimize.CommonsChunkPlugin({
-        name: 'vendor',
-        minChunks(module) {
-          // any required modules inside node_modules are extracted to vendor
-          return (
-            module.resource &&
-            /\.js$/.test(module.resource) &&
-            module.resource.indexOf(
-              path.join(__dirname, '../node_modules')
-            ) === 0
-          )
-        }
-      }),
     ],
   },
   module: {
@@ -302,7 +240,22 @@ module.exports = {
   },
   plugins: [
 
+    // //2018年8月28日 16:48:56 xulayen添加 
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      minChunks(module) {
+        // any required modules inside node_modules are extracted to vendor
+        return (
+          module.resource &&
+          /\.js$/.test(module.resource) &&
+          module.resource.indexOf(
+            path.join(__dirname, '../node_modules')
+          ) === 0
+        )
+      }
+    }),
 
+    new BundleAnalyzerPlugin(),
 
     // Makes some environment variables available in index.html.
     // The public URL is available as %PUBLIC_URL% in index.html, e.g.:
@@ -312,25 +265,22 @@ module.exports = {
     new InterpolateHtmlPlugin(env.raw),
 
     // Generates an `index.html` file with the <script> injected.
-    // new HtmlWebpackPlugin({
-    //   inject: true,
-    //   //template: paths.appHtml,
-    //   template: paths.appPublic + '/index.html',
-    //   minify: {
-    //     removeComments: true,
-    //     collapseWhitespace: true,
-    //     removeRedundantAttributes: true,
-    //     useShortDoctype: true,
-    //     removeEmptyAttributes: true,
-    //     removeStyleLinkTypeAttributes: true,
-    //     keepClosingSlash: true,
-    //     minifyJS: true,
-    //     minifyCSS: true,
-    //     minifyURLs: true,
-    //   },
-    // }),
-    ...htmlPluginsAray,
-
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: paths.appHtml,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeRedundantAttributes: true,
+        useShortDoctype: true,
+        removeEmptyAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        keepClosingSlash: true,
+        minifyJS: true,
+        minifyCSS: true,
+        minifyURLs: true,
+      },
+    }),
     // Makes some environment variables available to the JS code, for example:
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
     // It is absolutely essential that NODE_ENV was set to production here.
