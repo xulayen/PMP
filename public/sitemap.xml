@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML文件需以utf-8编码 -->
+<urlset>
+	<!-- 必填 -->
+	<url>
+		<!-- 必填,定义某一个链接的入口，每一条数据必须要用<url>和</url>来标示 -->
+		<loc>
+			http://pmp.xulayen.com/
+		</loc>
+		<!-- 必填,URL长度限制在256字节内 -->
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<!-- 更新时间标签，非必填，用来表示最后更新时间 -->
+		<changefreq>
+			daily
+		</changefreq>
+		<!-- 更新频率标签，非必填，用来告知引擎页面的更新频率 -->
+		<priority>
+			0.8
+		</priority>
+		<!-- 优先权标签，优先权值0.0-1.0，用来告知引擎该条url的优先级 -->
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/pre/face
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/startup/about
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/plan/about
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/plan/about
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/implement/about
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<url>
+		<loc>
+			http://pmp.xulayen.com/#/monitor/about
+		</loc>
+		<lastmod>
+			2019-02-01
+		</lastmod>
+		<changefreq>
+			daily
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+</urlset>
