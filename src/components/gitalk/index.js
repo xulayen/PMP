@@ -11,19 +11,21 @@ export default class GitalkContainer extends Component {
 
     constructor(props) {
         super(props);
-        console.log(props)
+        console.log(props);
     }
 
     componentDidMount() {
         var gitalk = new Gitalk(config.gitalk)
-        gitalk.render('gitalk-container')
+        gitalk.render('gitalk-container');
+
+
     }
 
     render() {
         return (
             <div className="article-comment">
 
-                <ZanShang/>
+                <ZanShang />
 
                 <div id="gitalk-container">
 

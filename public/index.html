@@ -7,7 +7,7 @@
   <meta name="360-site-verification" content="d3420d50b05890efd4bb82d085ba8bf8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="theme-color" content="#000000">
-  <meta name="keywords" content="pmbok第六版知识点总结,PMP,学习,考试,PMI,PMP 6.0,PMP分析,PMPBOOK,PMPBOOK 6.0,PMBOOK 6.0系统解析,PMBOOK系统解析,PMPBOK,PMPBOK 6.0,PMBOK 6.0系统解析,PMBOK系统解析,浅析PMP认证新版教材PMBOK指南第六版，pmbok第六版系统解析，pmbok第六版解析 ">
+  <meta name="keywords" content="PMP第六版储备分析,PMBOK第六版,pmbok 第六版,PMP第六版工具,pmp第六版各章重点,pmbook 第六版 计算题目,pmbok第六版知识点总结,PMP,学习,考试,PMI,PMP 6.0,PMP分析,PMPBOOK,PMPBOOK 6.0,PMBOOK 6.0系统解析,PMBOOK系统解析,PMPBOK,PMPBOK 6.0,PMBOK 6.0系统解析,PMBOK系统解析,浅析PMP认证新版教材PMBOK指南第六版，pmbok第六版系统解析，pmbok第六版解析 ">
   <meta name="description" content="PMP第六版储备分析,PMBOK第六版,pmbok 第六版,PMP第六版工具,pmp第六版各章重点,pmbook 第六版 计算题目,PMBOK第六版知识点总结,pmbok第六版知识点总结,PMP 6.0系统的分析记录工具,项目管理系统分析记录工具,PMP,学习,考试,PMI,PMP 6.0,PMP分析,PMPBOOK,PMPBOOK 6.0,PMBOOK 6.0系统解析,PMBOOK系统解析,PMPBOK,PMPBOK 6.0,PMBOK 6.0系统解析,PMBOK系统解析，浅析PMP认证新版教材PMBOK指南第六版，pmbok第六版系统解析，pmbok第六版解析">
   <!--
       manifest.json provides metadata used when your web app is added to the
@@ -16,6 +16,7 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/render.css">
+  <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -62,6 +63,26 @@
     var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?2f6d7c369153cd45b539bd821cadb545" : "https://jspassport.ssl.qhimg.com/11.0.1.js?2f6d7c369153cd45b539bd821cadb545";
     document.write('<script src="' + src + '" id="sozz"><\/script>');
   })();
+</script>
+
+
+
+<script>
+  // 登录完跳转回当前页面
+  //这里填写后台根据code获取access_token再调用别的接口提供的链接
+  const redirectUrl = encodeURI('' + location.href);
+  const obj = new WxLogin({
+    // 如果只是在页面一小块显示二维码，前方不要填true！！官方的我复制过来的时候是true，很坑
+    self_redirect: false,
+    // 第三方页面显示二维码的容器id
+    id: "login_container",
+    // 只有appid正确，且配置的站点与后台链接站点相同才能正常显示二维码
+    appid: "wx97e377b7691b236a",
+    scope: "snsapi_login",
+    redirect_uri: redirectUrl,
+    state: "snsapi_login",
+    style: "white",
+  })
 </script>
 
 </html>
