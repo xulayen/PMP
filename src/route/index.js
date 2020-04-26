@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 import {
-    //BrowserRouter as Router,
-    HashRouter as Router,
+    BrowserRouter as Router,
+    //HashRouter as Router,
     Route,
     Switch,
     Redirect,
@@ -254,7 +254,7 @@ export default class Main extends Component {
                                             </div>
                                         </div>
                                         <div className="sidebar-copyright">
-                                            本<a href="https://github.com/xulayen/pmp" target="_blank">文档</a>由<a href="http://xulayen.com" target="_blank">徐导</a>强力驱动
+                                            本<a href="https://github.com/xulayen/pmp" target="_blank">文档</a>由<a href="http://xulayen.com" target="_blank">徐大腿</a>强力驱动
                                         </div>
                                     </div>
                                     <div className="workspace">

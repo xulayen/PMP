@@ -25,7 +25,7 @@ export default class perface extends ContentMain {
                                 <a id="_0"></a>技术支持</h4>
                         </blockquote>
                         <h4 data-line="2" className="line">
-                            <a id="_2"></a>本文档由<a href="http://www.zheyousoft.com/">上海柘优信息科技有限公司</a>提供技术支持</h4>
+                            <a id="_2"></a>本文档由<a href="http://xulayen.com/">徐大腿</a>提供技术支持</h4>
                         <blockquote className="info">
                             <h4>
                                 <a id="_0"></a>主要部分</h4>
